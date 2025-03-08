@@ -6,6 +6,7 @@ import NotFoundPage from './pages/NotFoundPage/NotFoundPage'
 import MoviesPage from './pages/MoviesPage/MoviesPage'
 import MovieList from './components/MovieList/MovieList'
 
+
 function App() {
   return (
     <main>
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/movies" element={<MoviesPage />}>
-          <Route path="movielist" element={<MovieList />} />
+          {/* <Route path="movielist" element={<MovieList />} /> */}
         </Route>
 
         <Route path="*" element={<NotFoundPage />} />
