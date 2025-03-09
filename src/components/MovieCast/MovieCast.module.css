@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.actorImg {
+  width: 200px;
+  border-radius: 15px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #a85fdd;
+}

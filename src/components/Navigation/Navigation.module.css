@@ -1,7 +1,24 @@
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   padding: 10px 15px;
+  border-bottom: 1px solid rgba(168, 95, 221, 0.6);
+  margin-bottom: 30px;
+}
+
+.mainTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 26px;
+  color: #ededed;
+  transition: color 250ms ease-in-out;
+}
+
+.mainTitle:hover,
+.mainTitle:focus {
+  color: #a85fdd;
 }
 
 nav {
@@ -22,13 +39,13 @@ nav {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
-  color: #7a7b9f;
+  color: #ededed;
   transition: color 250ms ease-in-out;
 }
 
 .link:hover,
 .link:focus {
-    color: #a85fdd; 
+  color: #a85fdd;
 }
 
 .active {
@@ -46,4 +63,3 @@ nav {
   color: #a85fdd;
   background-color: #1a1b2d;
 }
-

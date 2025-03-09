@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  position: relative;
+  width: 264px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imput {
+  position: relative;
+  border: 1px solid #7a7b9f;
+  border-radius: 15px;
+  padding: 5px 16px;
+  width: 264px;
+  height: 48px;
+  background-color: #0f0f1a;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #7a7b9f;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #0f0f1a;
+  color: #7a7b9f;
+  z-index: 1;
+  border: none;
+  padding: 0 8px;
+  height: 28px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover,
+.btn:focus {
+  border: none;
+  outline: none;
+}
